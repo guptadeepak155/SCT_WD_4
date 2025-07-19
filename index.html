@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next-Gen To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="outer-wrapper">
+    <div class="container">
+      <h1>🧠 TaskMind - Smart To-Do</h1>
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="What do you need to do?" required />
+        <input type="datetime-local" id="task-datetime" />
+        <button type="submit">+ Add Task</button>
+      </form>
+      <div class="task-section">
+        <h2>📋 Your Tasks</h2>
+        <ul id="task-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
